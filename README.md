@@ -22,13 +22,12 @@ pip install streamlit pandas plotly matplotlib numpy
 ```bash
 streamlit run dashboards.py
 ```
-
 ### Features
 Real-Time Data: Visualize real-time ETF data.
 Interactive Dashboards: Utilize interactive plots to analyze performance.
 Customizable Views: Filter data based on specific criteria and dates.
 
-Contact
+### Contact
 For any questions or feedback, feel free to reach out:
 
 Email: gabrielvazcancadoferreira@gmail.com
