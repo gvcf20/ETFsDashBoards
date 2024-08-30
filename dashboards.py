@@ -90,6 +90,8 @@ elif etf == 'Personalized':
 
         filtered_df = df_normalized.loc[date1:date2]
 
+        escolha = None
+
 
         fig = go.Figure()
 
@@ -99,7 +101,7 @@ elif etf == 'Personalized':
                     x=filtered_df.index,
                     y=filtered_df[escolha],
                     mode='lines',
-                    name=etf
+                    name=escolha
                 ))
 
         fig.update_layout(
